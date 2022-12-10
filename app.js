@@ -2,7 +2,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const {check, validationResult} = require('express-validator');
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 9000;
 
 require('./db/conn');
 const Register = require('./models/redister');
